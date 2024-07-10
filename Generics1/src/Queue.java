@@ -22,9 +22,19 @@ public class Queue<T> {
         return fifoList.isEmpty();
     }
 
-    public void showQueue() {
+    public void displayQueue() {
         for (int i = 0; i < fifoList.size(); i++) {
             System.out.println(fifoList.get(i));
+        }
+    }
+
+    public void addMany(ArrayList<T> list) {
+        for(T i : list) fifoList.add(i);
+    }
+
+    public void removeMany(int howManyToRemove) {
+        for (int i = 0; i < howManyToRemove; i++) {
+            fifoList.removeFirst();
         }
     }
 }

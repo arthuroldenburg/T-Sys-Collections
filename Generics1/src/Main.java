@@ -8,9 +8,9 @@ public class Main {
 //        queue.add(3);
 //        queue.add(4);
 //        System.out.println(queue.isEmpty());
-//        queue.showQueue();
+//        queue.displayQueue();
 //        queue.remove();
-//        queue.showQueue();
+//        queue.displayQueue();
 // ------------------------------ 1 Question ------------------------------
 
 
